@@ -1,0 +1,94 @@
+body {
+  background-color:#55423d;
+  font-size: 17px;
+  font-weight: normal;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.6;
+  font-family: 'League Gothic', sans-serif;
+}
+
+
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  font-family: 'Secular One', sans-serif;;
+  line-height: 1.6;
+  color: #55423d;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.6;
+  color:#55423d;
+
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.6;
+  color:#55423d;
+
+}
+
+p {
+ color:black
+}
+
+a {
+  color:#271c19;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#e78fb3;
+}
+
+.card {
+  border-radius: 5px;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff3ec;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#Photo {
+  width: 150px;
+  border-radius: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
